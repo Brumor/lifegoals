@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp">
+        android:layout_height="80dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,8 +35,8 @@
         android:layout_weight="9"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:contextClickable="false"
         android:id="@+id/news_listview"
-        android:dividerHeight="1dp" />
+        android:scrollbars="none"
+        android:dividerHeight="0dp" />
 
 </LinearLayout>

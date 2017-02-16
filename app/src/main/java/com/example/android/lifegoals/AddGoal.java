@@ -6,10 +6,12 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class AddGoal extends AppCompatActivity {
 
     Button newGoal ;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,12 +19,15 @@ public class AddGoal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_goal);
 
+        final Toast Todo = Toast.makeText(this , "should add goal", Toast.LENGTH_SHORT);
+
         newGoal = (Button) findViewById(R.id.add_new_goal);
         newGoal.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
 
+                Todo.show();;
                 finish();
 
             }

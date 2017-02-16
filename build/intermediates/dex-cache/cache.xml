@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1c8a0c2c5ae7b779e6117a20862256116a94bd0c">
+        sha1="4541c44cf585eb1cd5e57a6a9b85c37ac640615b">
         <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bd0210984402caa45182ea57acc62e711e5dcca4\classes.dex" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="beaa2e935a00ed495319fc47cea78d46c6b0d450">
+        sha1="f98c1a79074c83488a6616c2e86acfd674452707">
         <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0194314a79d50dc3728bb3ed0d68b8cd3ea8913a\classes.dex" />
     </item>
     <item
