@@ -1,0 +1,7 @@
+#Thu Feb 16 23:09:07 CET 2017
+base.0=C\:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_bd0210984402caa45182ea57acc62e711e5dcca4
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0194314a79d50dc3728bb3ed0d68b8cd3ea8913a\\classes.dex
+base.1=C\:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0194314a79d50dc3728bb3ed0d68b8cd3ea8913a
+file.0=C\:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_bd0210984402caa45182ea57acc62e711e5dcca4\\classes.dex

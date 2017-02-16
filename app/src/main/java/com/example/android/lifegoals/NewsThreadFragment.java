@@ -28,8 +28,13 @@ public class NewsThreadFragment extends Fragment {
 
         final ArrayList<news> news_list = new ArrayList<>();
 
-        news_list.add(new news("Paul Bricout"));
-        news_list.add(new news("Paul Bricout"));
+
+
+        news_list.add(new news("Paul Bricout" + " à mis à jour son challenge 'programmer sa première app' : ",  " 15 % ", "Mardi 14 Février"));
+        news_list.add(new news("Paul Bricout" + " à mis à jour son challenge 'programmer sa première app' : ", "J'ai fait le design des Life News ! ", "Mardi 14 Février"));
+        news_list.add(new news("Paul Bricout" + " à mis à jour son challenge 'apprendre le russe' : ", " J'ai appris une nouvelle expression ! \n " + "я люблю тебя = je t'aime", "Mardi 14 Février"));
+        news_list.add(new news("Paul Bricout" + " a un nouveau challenge :", "apprendre le Russe", "Mardi 14 Février"));
+        news_list.add(new news("Paul Bricout" + " a un nouveau challenge :", "programmer sa première app", "Mardi 14 Février"));
 
 
         NewsListAdapter listAdapter = new NewsListAdapter(getActivity(), news_list);

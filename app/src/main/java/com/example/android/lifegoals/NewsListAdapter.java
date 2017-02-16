@@ -26,9 +26,13 @@ public class NewsListAdapter extends ArrayAdapter<news> {
 
         news currentNews = getItem(position);
 
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.user_name);
+        TextView usernameTextView = (TextView) listItemView.findViewById(R.id.user_name_txt);
+        TextView contentTextView = (TextView) listItemView.findViewById(R.id.news_content_txt);
+        TextView timeTextView = (TextView) listItemView.findViewById(R.id.news_time_txt);
 
-        nameTextView.setText(currentNews.getUser_name());
+        usernameTextView.setText(currentNews.getNews_username());
+        contentTextView.setText(currentNews.getNews_content());
+        timeTextView.setText(currentNews.getNews_time());
 
 
         return listItemView;

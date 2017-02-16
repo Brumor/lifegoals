@@ -6,14 +6,20 @@ package com.example.android.lifegoals;
 
 public class news {
 
-    String user_name;
+    String news_username;
+    String news_content;
+    String news_time;
 
-    public news (String UserName) {
+    public news (String UserName, String Content, String Time) {
 
-        user_name = UserName;
+        news_username = UserName;
+        news_content = Content;
+        news_time = Time;
 
     }
 
-    public String getUser_name () {return user_name;}
+    public String getNews_username () {return news_username;}
+    public String getNews_content () {return news_content;}
+    public String getNews_time () {return  news_time;}
 
 }
