@@ -14,19 +14,19 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class GoalListFragment extends Fragment {
+public class UserPageFragment extends Fragment {
 
     public int sample_image = R.mipmap.translation_icon;
 
 
-    public GoalListFragment() {}
+    public UserPageFragment() {}
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        final View rootview = inflater.inflate(R.layout.fragment_goal_list, container, false);
+        final View rootview = inflater.inflate(R.layout.fragment_user_page, container, false);
 
         final ArrayList<goal> goal_list = new ArrayList<>();
 

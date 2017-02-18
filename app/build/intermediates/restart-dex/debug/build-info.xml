@@ -2,50 +2,57 @@
 <instant-run
     abi="x86"
     api-level="23"
-    density="420dpi"
+    density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="1904452935046109"
+    timestamp="1996819535383548"
     token="719795050115649666"
-    verifier="FIELD_ADDED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="195" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="73" />
+        duration="0" />
     <task
         name="verifier"
-        duration="19" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-        type="DEX" />
+        location="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="1900496171787666"
+        timestamp="1993525353021893"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\pbric\Programmation\Lifegoals\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1903342194039389"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1995078660060784"
+        verifier="CLASS_ADDED" >
         <artifact
             location="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="1904452935046109"
-        verifier="FIELD_ADDED" >
+        timestamp="1996748716924108"
+        verifier="R_CLASS_CHANGE" >
         <artifact
             location="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="1996819535383548"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

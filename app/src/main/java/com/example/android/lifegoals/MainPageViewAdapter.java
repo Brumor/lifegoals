@@ -1,8 +1,10 @@
 package com.example.android.lifegoals;
 
-import android.support.v4.app.FragmentManager;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import layout.NotificationFragment;
 
 /**
  * Created by pbric on 12/02/2017.
@@ -19,14 +21,16 @@ public class MainPageViewAdapter extends FragmentPagerAdapter {
         if (position == 0) {
             return new NewsThreadFragment();
 
+        } else if (position == 1){
+            return new UserPageFragment();
         } else {
-            return new GoalListFragment();
+            return new NotificationFragment();
         }
 
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 }

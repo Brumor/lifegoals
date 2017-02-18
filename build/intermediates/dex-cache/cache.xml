@@ -84,15 +84,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_5063fcf3725b8e4f69fd61ab9a150570ddf98f26\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\pbric\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -102,11 +93,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_5063fcf3725b8e4f69fd61ab9a150570ddf98f26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4541c44cf585eb1cd5e57a6a9b85c37ac640615b">
+        sha1="3ee667c65113ace6f6408f172e567f5fe88b1a16">
         <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bd0210984402caa45182ea57acc62e711e5dcca4\classes.dex" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f98c1a79074c83488a6616c2e86acfd674452707">
+        sha1="1308f37185eb75a62b65f66f1e2ca414c2e5c227">
         <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0194314a79d50dc3728bb3ed0d68b8cd3ea8913a\classes.dex" />
     </item>
     <item

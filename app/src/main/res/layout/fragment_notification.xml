@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.lifegoals.NewsThreadFragment"
-    android:background="#F0F0F0">
+    tools:context="layout.NotificationFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,7 +13,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Life News"
+            android:text="Notification"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
@@ -29,16 +28,5 @@
         android:layout_width="match_parent"
         android:layout_height="3dp"
         android:background="#A3A3A3"/>
-
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="9"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:id="@+id/news_listview"
-        android:scrollbars="none"
-        android:dividerHeight="0dp"
-        android:divider="@null"/>
 
 </LinearLayout>

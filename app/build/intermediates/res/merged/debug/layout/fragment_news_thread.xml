@@ -3,12 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.lifegoals.NewsThreadFragment">
-
+    tools:context="com.example.android.lifegoals.NewsThreadFragment"
+    android:background="#F0F0F0">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp">
+        android:layout_height="80dp"
+        android:background="#228B22">
 
         <TextView
             android:layout_width="wrap_content"
@@ -18,7 +19,7 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:paddingLeft="60dp"
-            android:textColor="#228B22"
+            android:textColor="#FFFFFF"
             android:textSize="30sp"
             android:textStyle="bold|italic"/>
 
@@ -37,6 +38,7 @@
         android:layout_marginRight="10dp"
         android:id="@+id/news_listview"
         android:scrollbars="none"
-        android:dividerHeight="0dp" />
+        android:dividerHeight="0dp"
+        android:divider="@null"/>
 
 </LinearLayout>

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\test_image.png",
+        "source": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\src\\main\\res\\mipmap-xxxhdpi\\test_image.png"
+    },
+    {
         "merged": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
