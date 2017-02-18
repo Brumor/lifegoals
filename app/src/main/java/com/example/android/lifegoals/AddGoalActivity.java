@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class AddGoal extends AppCompatActivity {
+public class AddGoalActivity extends AppCompatActivity {
 
     Button newGoal ;
 

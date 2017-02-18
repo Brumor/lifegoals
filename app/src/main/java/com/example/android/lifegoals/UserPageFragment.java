@@ -1,11 +1,13 @@
 package com.example.android.lifegoals;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -17,6 +19,7 @@ import java.util.ArrayList;
 public class UserPageFragment extends Fragment {
 
     public int sample_image = R.mipmap.translation_icon;
+    Intent reviewGoal;
 
 
     public UserPageFragment() {}
@@ -39,6 +42,15 @@ public class UserPageFragment extends Fragment {
         ListView goalMainListView = (ListView) rootview.findViewById(R.id.main_goal_listview);
 
         goalMainListView.setAdapter(listAdapter);
+
+        reviewGoal = new Intent(this.getContext(), GoalReviewActivity.class);
+
+        goalMainListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                startActivity(reviewGoal);
+            }
+        });
 
         return rootview;
 

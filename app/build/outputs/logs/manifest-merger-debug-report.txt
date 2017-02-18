@@ -48,14 +48,14 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml:15:27-74
-activity#com.example.android.lifegoals.Main2Activity
-ADDED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml:18:9-51
+activity#com.example.android.lifegoals.AddGoalActivity
+ADDED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml:18:9-53
 	android:name
-		ADDED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml:18:19-48
-activity#com.example.android.lifegoals.AddGoal
-ADDED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml:19:9-54
+		ADDED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml:18:19-50
+activity#com.example.android.lifegoals.GoalReviewActivity
+ADDED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml:19:9-65
 	android:name
-		ADDED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml:19:19-42
+		ADDED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml:19:19-53
 uses-sdk
 INJECTED from C:\Users\pbric\Programmation\Lifegoals\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78

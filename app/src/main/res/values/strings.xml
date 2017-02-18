@@ -4,9 +4,23 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    //Different terms
     <string-array name="term_array">
         <item>Short term</item>
         <item>Medium term</item>
         <item>Long Term</item>
     </string-array>
+
+    //page title
+    <string name="title_life_news">Life News</string>
+    <string name="title_user_page">User</string>
+    <string name="title_notification_page">Notification</string>
+    <string name="title_add_goal">New Goal</string>
+    <string name="title_goal_review">Goal Review</string>
+
+    //Button String
+    <string name="plus_button">Add one</string>
+    <string name="add_goal_button">Add Goal</string>
+    <string name="close">Close</string>
+    
 </resources>

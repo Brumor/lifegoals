@@ -5,9 +5,9 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="1996819535383548"
+    timestamp="2059437441451651"
     token="719795050115649666"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -27,29 +27,25 @@
         type="RESOURCES" />
 
     <build
-        timestamp="1993525353021893"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="2056938686266800"
+        verifier="BINARY_MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\pbric\Programmation\Lifegoals\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1995078660060784"
-        verifier="CLASS_ADDED" >
+        timestamp="2059230016911436"
+        verifier="R_CLASS_CHANGE" >
         <artifact
             location="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="1996748716924108"
-        verifier="R_CLASS_CHANGE" >
         <artifact
             location="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="1996819535383548"
-        verifier="COMPATIBLE" >
+        timestamp="2059437441451651"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />

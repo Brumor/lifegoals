@@ -22,8 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.lifegoals.Main2Activity" />
-        <activity android:name="com.example.android.lifegoals.AddGoal" />
+        <activity android:name="com.example.android.lifegoals.AddGoalActivity" />
+        <activity android:name="com.example.android.lifegoals.GoalReviewActivity" />
     </application>
 
 </manifest>

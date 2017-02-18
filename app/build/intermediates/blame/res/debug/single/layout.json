@@ -36,6 +36,10 @@
         "source": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goal_review.xml",
+        "source": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\src\\main\\res\\layout\\activity_goal_review.xml"
+    },
+    {
         "merged": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -116,12 +120,12 @@
         "source": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_thread.xml",
-        "source": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\src\\main\\res\\layout\\fragment_news_thread.xml"
-    },
-    {
         "merged": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_notification.xml",
         "source": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\src\\main\\res\\layout\\fragment_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_thread.xml",
+        "source": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\src\\main\\res\\layout\\fragment_news_thread.xml"
     },
     {
         "merged": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",

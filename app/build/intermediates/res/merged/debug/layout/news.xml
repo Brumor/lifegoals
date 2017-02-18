@@ -61,7 +61,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:background="#A3A3A3"
+        android:background="@color/colorItemSeparator"
         android:alpha="0.3"/>
 
 </LinearLayout>

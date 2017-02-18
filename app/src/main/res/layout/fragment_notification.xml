@@ -8,19 +8,11 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#228B22">
+        android:background="@color/colorAppMain">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Notification"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:paddingLeft="60dp"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp"
-            android:textStyle="bold|italic"/>
+            android:text="@string/title_notification_page"
+            style="@style/TitleBar"/>
 
     </RelativeLayout>
 

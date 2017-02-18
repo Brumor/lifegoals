@@ -15,8 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".AddGoal"></activity>
+        <activity android:name=".AddGoalActivity" />
+        <activity android:name=".GoalReviewActivity"></activity>
     </application>
 
 </manifest>

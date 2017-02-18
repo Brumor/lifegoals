@@ -12,51 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_cd7936222dda73f25b2915d38793a6f2eaecd85f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_48b4bc986732742972704a2ca401ffa1ba241474\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_192c670e4c899b939f3f727e06be77d0c838320a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_703ea60682457c1c75367abdae554284c93e9734\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_c73ccebf34447301818a0705a498f2ca06970d8e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -84,15 +39,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\pbric\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_a1fc9da97e5268849be53cd7a2b4da5acb60a3c3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -102,12 +48,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\pbric\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_a1fc9da97e5268849be53cd7a2b4da5acb60a3c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3ee667c65113ace6f6408f172e567f5fe88b1a16">
+        sha1="14416c19db02caf4636c0231e3a92a33acf3b682">
         <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bd0210984402caa45182ea57acc62e711e5dcca4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_cd7936222dda73f25b2915d38793a6f2eaecd85f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -117,6 +81,24 @@
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_28a8b12ed1a95612ccd5bddbea00a78aa79eeee7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_48b4bc986732742972704a2ca401ffa1ba241474\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_192c670e4c899b939f3f727e06be77d0c838320a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -142,8 +124,26 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1308f37185eb75a62b65f66f1e2ca414c2e5c227">
+        sha1="b0dc386b4cb3241cfccdf71e2dc93aec86663bed">
         <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0194314a79d50dc3728bb3ed0d68b8cd3ea8913a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_703ea60682457c1c75367abdae554284c93e9734\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\pbric\Programmation\Lifegoals\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_c73ccebf34447301818a0705a498f2ca06970d8e\classes.dex" />
     </item>
     <item
         is-multidex="true"
