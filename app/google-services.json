@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "727844162851",
+    "firebase_url": "https://lifegoal-15c5f.firebaseio.com",
+    "project_id": "lifegoal-15c5f",
+    "storage_bucket": "lifegoal-15c5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727844162851:android:ec5b1d4a8a37f96f",
+        "android_client_info": {
+          "package_name": "com.example.android.lifegoals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727844162851-88n8ujmdj57k98pe0m2lmukbe4ar3nsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.lifegoals",
+            "certificate_hash": "7d872c290489175f6c42285793e594f95c35ec25"
+          }
+        },
+        {
+          "client_id": "727844162851-q8jdegp0ikdeb8jv4oca5rspmbrokr2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKDHQv93kRQz3V1tK-ctBGhrnANPGyU98"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727844162851-q8jdegp0ikdeb8jv4oca5rspmbrokr2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

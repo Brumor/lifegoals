@@ -1,15 +1,27 @@
 <resources>
     <string name="app_name">Lifegoals</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
     //Different terms
     <string-array name="term_array">
-        <item>Short term</item>
-        <item>Medium term</item>
-        <item>Long Term</item>
+        <item>By Day</item>
+        <item>By Week</item>
+        <item>By Month</item>
+        <item>By Year</item>
+        <item>Undefined</item>
     </string-array>
+
+    <string-array name="type_array">
+        <item>Languages</item>
+        <item>Travel</item>
+        <item>Studies</item>
+        <item>Work</item>
+        <item>Programming</item>
+        <item>Diet</item>
+        <item>Work-out</item>
+        <item>Other</item>
+    </string-array>
+
+
 
     //page title
     <string name="title_life_news">Life News</string>

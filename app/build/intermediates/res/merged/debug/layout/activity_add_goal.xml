@@ -35,15 +35,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:id="@+id/goal_type_et"
-        android:hint="Type" />
+        android:id="@+id/goal_description_et"
+        android:hint="Description" />
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:scrollbarStyle="outsideOverlay"
-        android:id="@+id/Lenght"/>
+        android:id="@+id/goal_type_spinner"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:id="@+id/goal_term_spinner"/>
 
     <RelativeLayout
         android:layout_width="match_parent"

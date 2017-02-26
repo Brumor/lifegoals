@@ -10,7 +10,14 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+
 import java.util.ArrayList;
+
+import static com.example.android.lifegoals.MainActivity.GoalDbReference;
+import static com.example.android.lifegoals.MainActivity.mChildEventListener;
 
 
 /**
@@ -18,7 +25,6 @@ import java.util.ArrayList;
  */
 public class UserPageFragment extends Fragment {
 
-    public int sample_image = R.mipmap.translation_icon;
     Intent reviewGoal;
 
 
@@ -33,11 +39,7 @@ public class UserPageFragment extends Fragment {
 
         final ArrayList<goal> goal_list = new ArrayList<>();
 
-        goal_list.add(new goal("Become fluent in Russian", "Languages", sample_image));
-        goal_list.add(new goal("Develop my goal-app", "Work", sample_image));
-
-
-        MainGoalListAdapter listAdapter = new MainGoalListAdapter(getActivity(), goal_list);
+        final MainGoalListAdapter listAdapter = new MainGoalListAdapter(getActivity(), goal_list);
 
         ListView goalMainListView = (ListView) rootview.findViewById(R.id.main_goal_listview);
 
@@ -46,11 +48,45 @@ public class UserPageFragment extends Fragment {
         reviewGoal = new Intent(this.getContext(), GoalReviewActivity.class);
 
         goalMainListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 startActivity(reviewGoal);
             }
+
         });
+
+        mChildEventListener = new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+
+                goal lifegoal = dataSnapshot.getValue(goal.class);
+                listAdapter.add(lifegoal);
+
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        };
+
+        GoalDbReference.addChildEventListener(MainActivity.mChildEventListener);
 
         return rootview;
 

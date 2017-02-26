@@ -36,7 +36,7 @@ public class MainGoalListAdapter extends ArrayAdapter<goal> {
 
         nameTextView.setText(currentGoal.getGoal_name());
         typeTextView.setText(currentGoal.getGoal_type());
-        iconImageView.setImageResource(currentGoal.getGoal_icon());
+        iconImageView.setImageResource(R.mipmap.translation_icon);
 
 
         return listItemView;

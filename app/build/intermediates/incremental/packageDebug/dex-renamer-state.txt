@@ -1,4 +1,4 @@
-#Sat Feb 18 19:01:20 CET 2017
+#Sun Feb 26 20:01:49 CET 2017
 base.0=C\:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0194314a79d50dc3728bb3ed0d68b8cd3ea8913a
 renamed.1=classes2.dex
 renamed.0=classes.dex
