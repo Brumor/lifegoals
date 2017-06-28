@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
-import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
@@ -22,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public final static String TAG = "101Lg";
     public static final int RC_SIGN_IN = 1;
 
-
+    //daclare every Firebase components
     public FirebaseDatabase GoalFirebaseDb;
     public static ChildEventListener mChildEventListener;
     private FirebaseAuth LfGAuth;
@@ -36,30 +35,30 @@ public class MainActivity extends AppCompatActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
 
+        // Declare the Viewpager that will hold the Fragments
         final ViewPager viewPager = (ViewPager) findViewById(R.id.main_view_pager);
 
+        //Initialize FirebaseDatabase  and Auth system
         GoalFirebaseDb = FirebaseDatabase.getInstance();
         LfGAuth = FirebaseAuth.getInstance();
 
         LfGAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-
                 currentUser = firebaseAuth.getCurrentUser();
 
                 if (currentUser != null) {
                     // User is signed in
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + currentUser.getUid());
 
-                    Toast.makeText(MainActivity.this, "You're now signed in. Welcome to FriendlyChat.", Toast.LENGTH_SHORT).show();
+                    //Give the database a reference and setting up the adapter if the user is signed in
                     GoalDbReference = GoalFirebaseDb.getReference().child("user/" + currentUser.getDisplayName() +"/goal" );
-
                     MainPageViewAdapter mainPageViewAdapter = new MainPageViewAdapter(getSupportFragmentManager());
-
                     viewPager.setAdapter(mainPageViewAdapter);
 
                 } else {
 
+                    //Firebase API
                     startActivityForResult(
                             AuthUI.getInstance()
                                     .createSignInIntentBuilder()

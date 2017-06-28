@@ -34,5 +34,8 @@
     <string name="plus_button">Add one</string>
     <string name="add_goal_button">Add Goal</string>
     <string name="close">Close</string>
+
+    //Hint String
+    <string name="add_news_hint">How did you improve today?</string>
     
 </resources>

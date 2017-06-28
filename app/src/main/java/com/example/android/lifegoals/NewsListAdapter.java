@@ -27,6 +27,8 @@ public class NewsListAdapter extends ArrayAdapter<news> {
 
         if (convertview != null) {
             listItemView = convertview;
+        } else if (position == 0){
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.add_news_button, parent, false);
         } else {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.news, parent, false);
         }
@@ -38,10 +40,6 @@ public class NewsListAdapter extends ArrayAdapter<news> {
 
         //Add a special news to the first one of the listview
         if (position == 0) {
-
-            usernameTextView.setText("test");
-            contentTextView.setText("test");
-            timeTextView.setText("test");
 
         } else {
 

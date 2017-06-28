@@ -44,6 +44,7 @@
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:text="Goal Title"
+            android:id="@+id/review_goal_title"
             android:textSize="25sp"/>
 
 
@@ -53,7 +54,8 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:padding="30dp"
-            android:text="style"/>
+            android:text="type"
+            android:id="@+id/review_goal_type"/>
 
     </RelativeLayout>
 
@@ -65,8 +67,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="30dp"
         android:text="Goal Description"
-        android:layout_margin="30dp"/>
+        android:id="@+id/review_goal_content"/>
+
 
     <ListView
         android:layout_width="match_parent"

@@ -51,5 +51,7 @@ dependencies {
     compile 'com.google.firebase:firebase-auth:10.0.1'
     // FirebaseUI
     compile 'com.firebaseui:firebase-ui-auth:1.1.1'
+
+    compile 'com.android.support:design:23.3.0'
 }
 apply plugin: 'com.google.gms.google-services'

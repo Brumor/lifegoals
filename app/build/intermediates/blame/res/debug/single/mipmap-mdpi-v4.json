@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\translation_icon.jpg",
         "source": "C:\\Users\\pbric\\Programmation\\Lifegoals\\app\\src\\main\\res\\mipmap-mdpi\\translation_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\pbric\\Programmation\\Android\\Lifegoals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\translation_icon.jpg",
+        "source": "C:\\Users\\pbric\\Programmation\\Android\\Lifegoals\\app\\src\\main\\res\\mipmap-mdpi\\translation_icon.jpg"
     }
 ]

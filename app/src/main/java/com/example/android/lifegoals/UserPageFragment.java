@@ -20,9 +20,6 @@ import static com.example.android.lifegoals.MainActivity.GoalDbReference;
 import static com.example.android.lifegoals.MainActivity.mChildEventListener;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class UserPageFragment extends Fragment {
 
     Intent reviewGoal;
@@ -41,22 +38,28 @@ public class UserPageFragment extends Fragment {
 
         final MainGoalListAdapter listAdapter = new MainGoalListAdapter(getActivity(), goal_list);
 
-        ListView goalMainListView = (ListView) rootview.findViewById(R.id.main_goal_listview);
+        final ListView goalMainListView = (ListView) rootview.findViewById(R.id.main_goal_listview);
 
         goalMainListView.setAdapter(listAdapter);
 
+        //Starts the Goal Review Activity when I click on an Item in the list
         reviewGoal = new Intent(this.getContext(), GoalReviewActivity.class);
-
         goalMainListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                reviewGoal.putExtra("title", listAdapter.getItem(position).getGoal_name());
+                reviewGoal.putExtra("type", listAdapter.getItem(position).getGoal_type());
+                reviewGoal.putExtra("content", listAdapter.getItem(position).getGoal_description());
                 startActivity(reviewGoal);
             }
 
         });
 
+
+        //Automatically add new goals here
         mChildEventListener = new ChildEventListener() {
+
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
 

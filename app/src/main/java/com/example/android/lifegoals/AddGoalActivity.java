@@ -70,8 +70,6 @@ public class AddGoalActivity extends AppCompatActivity {
                 currentUserId);
 
         MainActivity.GoalDbReference.push().setValue(lifegoal);
-
-        // Clear input box
     }
 
 }
