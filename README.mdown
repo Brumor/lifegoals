@@ -1,4 +1,6 @@
-![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot1.PNG) ![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot2.PNG) ![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot3.PNG)
+<div style="width:30%">![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot1.PNG)
+<div style="width:30%">![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot2.PNG)
+<div style="width:30%">![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot3.PNG)
 
 # Lifegoals
 
@@ -6,6 +8,6 @@
 
 **Lifegoals** is a prototype app for a Social Network where people could set goals for themselves
 
-##Technical aspects
+## Technical aspects
 
 **Lifegoals** uses Google Firebase for its Database, User Authentification, Notification and Web Storage.
