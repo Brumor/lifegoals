@@ -1,6 +1,6 @@
-<div style="width:30%">![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot1.PNG)
-<div style="width:30%">![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot2.PNG)
-<div style="width:30%">![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot3.PNG)
+<div style="width:30%"> ![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot1.PNG)
+<div style="width:30%"> ![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot2.PNG)
+<div style="width:30%"> ![Screenshots](https://github.com/Brumor/lifegoals/blob/master/screenshots/Screenshot3.PNG)
 
 # Lifegoals
 
