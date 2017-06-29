@@ -10,3 +10,17 @@
 ## Technical aspects
 
 **Lifegoals** uses Google Firebase for its Database, User Authentification, Notification and Web Storage.
+
+**Lifegoals** is composed of three Activities :
+
+* The Main Activity, with three fragments the user can swipe through:
+
+    ..* The News List displaying all the latest updates from the user's friends, and allows the user to post an update on his challenges.
+
+    ..* The User Page, where the user can review his goals, and create new ones.
+
+    ..* The Notification Page, where the user can see all of his notifications
+
+* The Add goal activity, which allows the user to set a new goal, he just has to enter a title, a description, a category and he can then add it to the database.
+
+* The Review goal activity, where the user can review one of his goals and see all the updates related to this one
